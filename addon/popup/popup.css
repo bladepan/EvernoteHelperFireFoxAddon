@@ -1,0 +1,23 @@
+html, body {
+  width: 120px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 2px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.action:hover {
+  background-color: #CFF2F2;
+}
+
+.action {
+  background-color: #E5F2F2;
+}
