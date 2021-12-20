@@ -1,18 +1,15 @@
 {
-
   "description": "Enrich Evernote web ui",
   "manifest_version": 2,
   "name": "Evernote Helper",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/bladepan/EvernoteHelperFireFoxAddon",
   "icons": {
     "48": "icons/icon-48.png"
   },
-
   "permissions": [
     "activeTab"
   ],
-
   "browser_action": {
     "default_icon": "icons/icon-32.png",
     "theme_icons": [{
@@ -23,12 +20,16 @@
     "default_title": "Evernote Helper",
     "default_popup": "popup/popup.html"
   },
-
   "content_scripts": [
     {
       "matches": ["*://*.evernote.com/client/web*"],
       "js": ["content_scripts/content.js"]
     }
-  ]
-
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{0a90c519-61e7-4793-984d-d4ccb83e4cdd}",
+      "strict_min_version": "42.0"
+    }
+  }  
 }

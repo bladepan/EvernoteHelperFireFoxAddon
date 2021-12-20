@@ -1,3 +1,4 @@
 #!/bin/sh
 mkdir -p build
-zip -r -FS build/evernote-helper.zip addon/* 
+cd addon
+zip -r -FS ../build/evernote-helper.zip * 

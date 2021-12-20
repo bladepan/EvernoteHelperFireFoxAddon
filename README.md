@@ -1,5 +1,9 @@
 # EvernoteHelper Firefox addon
 
+- Install from [Mozilla addons](https://addons.mozilla.org/en-CA/firefox/addon/evernote-helper/). It is under review.
+- Download the source code, run `package.sh` to package the addon, find instructions to install unsigned extensions [here](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/).
+- Download the source code, [install it using firefox debugging](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/), select any file under addon directory.
+
 ## What it does ##
 
 - Add a link to open note in a new tab
